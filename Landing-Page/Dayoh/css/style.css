@@ -1,6 +1,31 @@
+#about {
+	background-color: #5e95cd;
+	color: #fff;
+	padding: 5%;
+}
+
+#about h4 {
+	font-weight: bold;
+}
+
+#about p {
+	font-size: 0.8em;
+	text-align: justify;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	height: 100%;
+}
+
+.btn-dayoh,
+.btn-dayoh:hover,
+.btn-dayoh:focus,
+.btn-dayoh:active,
+.btn-dayoh.active {
+	background-color: #e8776b;
+	border: 1px solid #fff;
+	color: #fff;
 }
 
 .feature-block {
@@ -56,4 +81,10 @@ header {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav li a:hover {
 	color: #5e95cd;
+}
+
+#wells {
+	background-color: #e8776b;
+	color: #fff;
+	padding: 2%;
 }
