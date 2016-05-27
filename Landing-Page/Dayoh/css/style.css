@@ -83,6 +83,50 @@ header {
 	color: #5e95cd;
 }
 
+#plans {
+	padding: 5% 10%;
+}
+
+#plans table tbody tr td,
+#plans table thead tr th {
+	color: #999999;
+	text-align: center;
+}
+
+#plans table thead tr th{
+	background-color: #e1e1e1;
+	padding: 2%;
+}
+
+#plans table tbody tr td a {
+	font-size: 0.9em;
+	padding: 5% 20%;
+}
+
+
+#plans table tbody tr:nth-child(odd) {
+	background-color: #eeeeee;
+}
+#plans table thead tr th:nth-child(even) {
+	background-color: #e7776b;
+	color: #fff;
+}
+
+.price {
+	color: #e7776b;
+	font-size: 1.7em;
+	font-weight: bold;
+	padding: 5%;
+}
+
+.sign-up {
+	padding: 5%;
+}
+
+.table {
+	margin-bottom: 0;
+}
+
 #wells {
 	background-color: #e8776b;
 	color: #fff;
