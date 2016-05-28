@@ -66,6 +66,7 @@ header {
 	background: url(../img/cover.png) no-repeat;
 	color: #fff;
 	padding-top: 100px;
+	width: 100%;
 }
 
 .navbar-default {
@@ -119,8 +120,25 @@ header {
 	padding: 5%;
 }
 
-.sign-up {
+.sign-up-btn {
 	padding: 5%;
+}
+
+#sign-up {
+	background-size: cover;
+	background: url(../img/cover.png) no-repeat;
+	color: #fff;
+	padding: 3%;
+	text-align: center;
+	width: 100%;
+}
+
+#sign-up h4 {
+	padding-bottom: 2%;
+}
+
+#sign-up button {
+	margin-left: 10px;
 }
 
 .table {
