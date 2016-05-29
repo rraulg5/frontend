@@ -28,6 +28,38 @@ body {
 	color: #fff;
 }
 
+.carousel-caption {
+	position: static;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+	background-image: none;
+}
+
+.carousel-control span {
+	color: #e8776b;
+}
+
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-next, 
+.carousel-control .icon-prev {
+	font-size: 3.5em;
+}
+
+ol.carousel-indicators {
+	bottom: -40px;
+}
+
+.carousel-indicators li {
+	border: 1px solid #e8776b;
+}
+
+.carousel-indicators .active{
+	background-color: #e8776b;
+}
+
 .feature-block {
 	padding: 0 5%;
 }
@@ -95,6 +127,10 @@ header {
 	color: #5e95cd;
 }
 
+#our-team {
+	padding: 5%;
+}
+
 #plans {
 	padding: 5% 10%;
 }
@@ -129,6 +165,10 @@ header {
 	font-size: 1.7em;
 	font-weight: bold;
 	padding: 5%;
+}
+
+.profile {
+	text-align: center;
 }
 
 .sign-up-btn {
