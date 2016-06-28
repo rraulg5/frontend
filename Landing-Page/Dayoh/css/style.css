@@ -28,6 +28,10 @@ body {
 	color: #fff;
 }
 
+#buy-it {
+	width: 100%;
+}
+
 .carousel-caption {
 	position: static;
 }
@@ -110,6 +114,23 @@ header {
 	color: #fff;
 	padding-top: 100px;
 	width: 100%;
+}
+
+@media (max-width: 768px) {
+	header {
+		padding-bottom: 7%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 992px) {
+	#buy-it {
+		text-align: center;
+	}
+
+	#buy-it a {
+		margin-top: 3%;
+	}
 }
 
 .navbar-default {
