@@ -1,0 +1,30 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	height: 100%;
+}
+
+header {
+	background-size: cover;
+	background: url(../img/cover.jpg) no-repeat;
+	color: #fff;
+	padding: 300px 0;
+	width: 100%;
+}
+
+header h1, header p {
+	padding-bottom: 5%;
+	font-weight: lighter;
+}
+
+.btn-office,
+.btn-office:hover,
+.btn-office:focus,
+.btn-office:active,
+.btn-office.active {
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 0;
+	color: #fff;
+	font-size: 0.9em;
+	padding: 15px 35px;
+}
