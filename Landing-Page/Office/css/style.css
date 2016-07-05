@@ -1,6 +1,7 @@
 body {
 	font-family: 'Noto Sans', sans-serif;
 	height: 100%;
+	text-align: justify;
 }
 
 header {
@@ -27,4 +28,85 @@ header h1, header p {
 	color: #fff;
 	font-size: 0.9em;
 	padding: 15px 35px;
+}
+
+#dmd-1 {
+	top: 400px;
+}
+
+#dmd-2 {
+	left: 103px;
+	top: 97px;
+}
+
+#dmd-3 {
+	left: 206px;
+	top: -206px;
+}
+
+#dmd-4 {
+	left: 206px;
+	top: -200px;
+}
+
+#dmd-5 {
+	left: 310px;
+	top: -503px;
+}
+
+#dmd-6 {
+	left: 414px;
+	top: -807px;
+}
+
+#dmd-7 {
+	left: 518px;
+	top: -903px;
+}
+#dmd-8 {
+	left: 621px;
+	top: -1208px;
+}
+
+.diamond {
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+
+#diamonds {
+	max-height: 800px;
+}
+
+.diamond span {
+	font-size: 0.7em;
+	position: absolute;
+	top: 55px;
+	
+    white-space: nowrap;
+}
+
+.diamond i {
+	font-size: 2em;
+	left: 30px;
+	top: 30px;
+}
+
+.diamond span, .diamond i{
+	position: absolute;
+	-webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+     -ms-transform: rotate(-45deg);
+     -o-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+}
+
+#our-services {
+	background-color: #f6f6f6;
+}
+
+#our-services h1 {
+	font-weight: bold;
+	padding-top: 200px;
+	padding-bottom: 50px;
 }
