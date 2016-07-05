@@ -141,3 +141,19 @@ header h1, header p {
 	padding-top: 200px;
 	padding-bottom: 50px;
 }
+
+#our-works {
+	background-color: #28282e;
+	color: #fff;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+#our-works h1 {
+	font-weight: bold;
+}
+
+#our-works h1, #our-works p {
+	padding-bottom: 5%;
+	font-weight: lighter;
+}
